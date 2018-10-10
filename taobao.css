@@ -1,0 +1,159 @@
+ul{
+	list-style: none;
+	padding:0;
+}
+
+/*表示第一行*/
+#h1 {
+	height:37px;
+	border:solid 1px #CCCCCC;
+	background-color: #CCCCCC;
+	
+}
+.h1left{
+	float:left;
+	padding:0 10px;
+
+}
+.h1right{
+
+	float:right;
+	padding:0 10px;
+}
+#h1 a{
+	text-decoration: none;
+	color:black;
+	font-size:13px;
+}
+
+
+#h2{
+	position:absolute;
+	top:55px;
+}
+#h3,#h4,#h4r{
+	position:absolute;
+	padding-top:8px;
+	padding-bottom:8px;
+}
+#h3{
+	top:180px;
+	width:100%;
+	background-color:#CCCCCC;
+}
+#h4,#h4r{
+	top:260px;
+	width: 70%;
+	border: 1px solid  #CCCCCC;
+	border-left: none;
+}
+#h4r{
+	right:0px;
+	width:29.4%;
+	border-right: none;
+}
+.h1,.h3{
+	border:none;
+	background-color:#CCCCCC;
+}
+#hl,h1,h2,.xiao2{
+	color:#FF6600;
+}
+
+.xiao2{
+	font-size:18px;
+}
+h1{
+	margin-bottom:0px;
+}
+h2{
+	margin-top: 0px;
+}
+#h2left,#h2right{
+	float:left;
+}
+#h2right{
+	margin-top:32px;
+	margin-left: 100px;
+	margin-right: 100px;
+
+}
+#content{
+	border:2px solid #FF6600;
+	padding:8px;
+}
+.xiao3{
+	font-size:12px;
+	border:none;
+	background-color: white;
+	color:#FF6600;
+}
+.search{
+	border:2px solid #FF6600;
+	background-color: #FF6600;
+	color:white;
+	height:36px;
+	margin:-4.5px;
+	width:99px;
+	font-size: 15px;
+}
+.down:hover .yl{
+	background-color: #CCCCCC;
+	display:block;
+	z-index: +1;
+}
+.yl{
+	display:none;
+	position: absolute;
+	background-color: red;
+}
+.hou,.down{
+	float:left;
+}
+.di:hover{
+	background-color: red;
+}
+.checkbox{
+	font-size: 14px;
+}
+.clothes{
+	position:absolute;
+	top:310px;
+}
+.clothes1,.clothes2,.clothes3,.clothes4,.clothes5,.clothes6{
+	border:1px solid #CCCCCC;
+	width:225px;
+	height:370px;
+	padding:12px;
+	font-size:13px;
+	float:left;
+	margin-right:13px;
+	margin-bottom: 13px;
+}
+.money{
+	color:#FF6600;
+	font-weight: bold;
+}
+.baoyou{
+	color:white;
+	background-color:#FF6600;
+	font-weight:lighter;
+}
+.clothes1:hover{
+	border-color: #FF6600;
+}
+.clothes2:hover{
+	border-color: #FF6600;
+}
+.clothes3:hover{
+	border-color: #FF6600;
+}
+.clothes4:hover{
+	border-color: #FF6600;
+}
+.clothes5:hover{
+	border-color: #FF6600;
+}
+.clothes6:hover{
+	border-color: #FF6600;
+}
