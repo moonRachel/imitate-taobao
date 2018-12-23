@@ -117,9 +117,9 @@ h2{
 .checkbox{
 	font-size: 14px;
 }
-.clothes{
+#clothes{
 	position:relative;
-	top:310px;
+	top:280px;
 }
 .clothes1,.clothes2,.clothes3,.clothes4,.clothes5,.clothes6{
 	border:1px solid #CCCCCC;
